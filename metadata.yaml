@@ -1,8 +1,8 @@
-homepage: "https://github.com/outerbox/gtm-template-click-id-capture"
-documentation: "https://github.com/outerbox/gtm-template-click-id-capture/blob/main/README.md"
+homepage: "https://github.com/iuloko-Obx/gtm-template-click-id-capture"
+documentation: "https://github.com/iuloko-Obx/gtm-template-click-id-capture/blob/main/README.md"
 description: "Captures ad platform click IDs (gclid, gbraid, wbraid, fbclid, msclkid, ttclid, rdtclid, li_fat_id, twclid) into first-party cookies and localStorage. Auto-builds Meta _fbc for CAPI. Pushes to dataLayer for sGTM forwarding."
 versions:
-  - sha: REPLACE_WITH_FIRST_COMMIT_SHA
+  - sha: 66a76e9119d47ec3296e58946444e6ebe88a782e
     changeNotes: |
       Initial release.
       - Captures 9 click IDs: gclid, gbraid, wbraid, fbclid, msclkid, ttclid, rdtclid, li_fat_id, twclid

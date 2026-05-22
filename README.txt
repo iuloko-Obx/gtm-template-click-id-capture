@@ -206,8 +206,8 @@ Apache 2.0 - see LICENSE file in the repo.
 SUPPORT
 ================================================================================
 
-Repo: github.com/outerbox/gtm-template-click-id-capture
-Issues: github.com/outerbox/gtm-template-click-id-capture/issues
+Repo: github.com/iuloko-Obx/gtm-template-click-id-capture
+Issues: github.com/iuloko-Obx/gtm-template-click-id-capture/issues
 OuterBox: outerbox.com
 
 ================================================================================
