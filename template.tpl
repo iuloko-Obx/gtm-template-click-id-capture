@@ -357,7 +357,7 @@ ___WEB_PERMISSIONS___
   {
     "instance": {
       "key": {
-        "publicId": "read_url",
+        "publicId": "get_url",
         "versionId": "1"
       },
       "param": [

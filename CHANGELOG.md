@@ -2,6 +2,11 @@
 
 All notable changes to this template will be documented here.
 
+## [1.0.1] - 2026-05-22
+
+### Fixed
+- Corrected permission `publicId` from `read_url` to `get_url` so the template imports without "Unknown entity type" errors
+
 ## [1.0.0] - 2026-05-22
 
 Initial release.
