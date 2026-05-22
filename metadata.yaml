@@ -1,0 +1,13 @@
+homepage: "https://github.com/outerbox/gtm-template-click-id-capture"
+documentation: "https://github.com/outerbox/gtm-template-click-id-capture/blob/main/README.md"
+description: "Captures ad platform click IDs (gclid, gbraid, wbraid, fbclid, msclkid, ttclid, rdtclid, li_fat_id, twclid) into first-party cookies and localStorage. Auto-builds Meta _fbc for CAPI. Pushes to dataLayer for sGTM forwarding."
+versions:
+  - sha: REPLACE_WITH_FIRST_COMMIT_SHA
+    changeNotes: |
+      Initial release.
+      - Captures 9 click IDs: gclid, gbraid, wbraid, fbclid, msclkid, ttclid, rdtclid, li_fat_id, twclid
+      - Platform-specific attribution windows (most at 90 days, ttclid at 30)
+      - Auto-builds Meta _fbc value in fb.1.{timestamp}.{fbclid} format
+      - localStorage backup for ITP recovery
+      - Per-click-ID toggle in template UI
+      - Pushes 'click_ids_ready' event to dataLayer
